@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+  }
+/* immagine sfondo nel body */
+body{ 
+    background-image: url(sfondo.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+
+}
+/* sfondo semi-trasparente */
+.container{
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 1000px;
+        margin: auto;
+        padding: 50px;
+    }
+/* logo e titolo */
+.logo{width: 25%;}
+
+header{
+    text-align: center;
+    color: lawngreen;
+}
+
+nav{
+    background-color: lawngreen;
+    text-align: center;
+    padding: 10px;
+}
+
+main{ color: white;}
+h2{display: inline;}
+
+/* barra indicatrice di carica monopattino di gino */
+#GINO{
+    border-radius: 3px;
+    width: 30%;
+    height: 20px;
+    background-color: orange;
+}
+/* barra indicatrice di carica monopattino di matteo */
+#MATTEO{
+    border-radius: 3px;
+    width: 90%;
+    height: 20px;
+    background-color: green;
+}
+/* barra indicatrice di carica monopattino di martina */
+#MARTINA{
+    border-radius: 3px;
+    width: 10%;
+    height: 20px;
+    background-color: red;
+}
+.indirizzo{
+    font-style: italic;
+    font-size: medium;
+}
+footer{ text-align: center;
+font-style: initial;
+color: rgb(0, 29, 133);}
